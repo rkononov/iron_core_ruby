@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.version       = IronCore::VERSION
 
   gem.required_rubygems_version = ">= 1.3.6"
-  gem.required_ruby_version = Gem::Requirement.new(">= 1.9")
   gem.add_runtime_dependency "rest", ">= 2.0.2"
 
   gem.add_development_dependency "test-unit"
